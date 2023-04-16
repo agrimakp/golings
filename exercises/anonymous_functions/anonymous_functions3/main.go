@@ -15,7 +15,6 @@ func updateStatus() func() string {
 
 	return func() string {
 		index++
-		println(orderStatus[index])
 		return orderStatus[index]
 	}
 }
